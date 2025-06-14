@@ -1,7 +1,7 @@
 ## PlanSearch joke generation and their corresponding judgement by a panel of LLM judges.
 
 **Abstract:**
-A multi-model system where AI "judges" with distinct comedic tastes evaluate a joke and collaboratively arrive at a final verdict through iterative discussion.
+A multi-model system where AI "judges" with distinct comedic tastes evaluate a joke and collaboratively arrive at a final verdict through iterative "discussion".
 
 ---
 
