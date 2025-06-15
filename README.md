@@ -1,11 +1,11 @@
-# 🧠 PlanSearch Joke Generation and Judgement by a Panel of LLM Judges
+# PlanSearch Joke Generation and Judgement by a Panel of LLM Judges
 
 **Abstract:**
 A multi-model system where AI "judges" with distinct comedic tastes evaluate a joke and collaboratively arrive at a final verdict through iterative “discussion.”
 
 ---
 
-## 🎭 Overview
+## Overview
 
 This project simulates a comedy panel of AI judges who evaluate jokes using large language models (LLMs). Each judge embodies a unique personality and comedic style. Their individual verdicts are followed by a simulated discussion to reach a consensus score.
 
@@ -19,7 +19,7 @@ Two notebook implementations showcase different approaches:
 
 ---
 
-## 👨‍⚖️ Judge Profiles
+## Judge Profiles
 
 * **Judge 1**: A sarcastic and cynical comic who despises puns.
 * **Judge 2**: A surrealist poet who revels in absurd and chaotic humor.
@@ -27,7 +27,7 @@ Two notebook implementations showcase different approaches:
 
 ---
 
-## 🌟 What Makes It Unique
+## What Makes It Unique
 
 Instead of relying on a single LLM for joke evaluation — as outlined in the original problem statement — we chose to **simulate a debate-style panel of judges**, inspired by formats seen in TV talent shows.
 
@@ -39,7 +39,7 @@ This approach:
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 1. A single-word prompt from the user initiates **PlanSearch-based joke generation** via Sarvam-M’s API.
 2. Each generated joke is passed to three distinct judges who issue independent verdicts.
@@ -49,7 +49,7 @@ This approach:
 
 ---
 
-## 🧰 Tech Stack / Libraries Used
+## Tech Stack / Libraries Used
 
 * Python 3.10+
 * [Sarvam-M API](https://sarvam.ai/) — for PlanSearch joke generation and single-model judge simulation
@@ -58,7 +58,7 @@ This approach:
 
 ---
 
-## 💡 Novelty & Memorization Analysis (Optional Follow-Up)
+## Novelty & Memorization Analysis (Optional Follow-Up)
 
 ## What is novelty?
 
