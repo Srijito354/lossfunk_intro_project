@@ -12,9 +12,9 @@ This project simulates a comedy panel of AI judges who evaluate jokes using larg
 * "diff_agents_intro_project.ipynb", also uses Sarvam-M's API to generate jokes using PlanSearch based prompting, but uses APIs of 3 distict LLMs from OpenRouter to 'act' as the 3 judges, each with a distict personality. Post which they pass on their respective verdicts and debate on these verdicts in a simulated setting.
 
 **Characteristics of the judges:**
-Judge 1: A sarcastic and cynical comic who despises puns.
-Judge 2: A surrealist poet who celebrates absurd and chaotic humor.
-Judge 3: A professional comedy reviewer with 20 years of balanced experience.
+* Judge 1: A sarcastic and cynical comic who despises puns.
+* Judge 2: A surrealist poet who celebrates absurd and chaotic humor.
+* Judge 3: A professional comedy reviewer with 20 years of balanced experience.
 
 ---
 
