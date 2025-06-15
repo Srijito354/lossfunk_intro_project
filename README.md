@@ -55,3 +55,21 @@ This approach:
 * [Sarvam-M API](https://sarvam.ai/) — for PlanSearch joke generation and single-model judge simulation
 * [OpenRouter APIs](https://openrouter.ai/) — for accessing multiple distinct LLMs as judges
 * `re` — for extracting numeric scores from the judges’ final verdicts using regex
+
+---
+
+## 💡 Novelty & Memorization Analysis (Optional Follow-Up)
+
+## What is novelty?
+
+Novelty in this project refers to the uniqueness in the joke's structure, content, or punchline relative to pre-existing jokes. A truly novel joke should not be a direct reproduction of known or pre-existing jokes from data (corpora) these massive models have been trained on - they should introduce an unexpected twist (as judged by "Judge A" in this project), setup, or association that hasn't been commonly encountered before.
+
+## How to define and measure novelty, and check for memorization?
+
+1. A corpora of "known" jokes is arranged for; from various sources in the internet, like Reddit, online-available books, etc.
+
+2. A semantic similarity test between "known" and "generated" jokes can be used to check the novelty of the "generated" ones. A lower score, means more novel than the those with a greater similarity score.
+
+4. External human judgement can also be used, wherein team of human experts can judge on the generated jokes, based on novelty.
+
+    **We can this conclude that novelty in joke generation can be tested both quantitatively (similarity scores) and qualitatively (human experts & LLM judgement), and deploying both these methods ensures that the generated jokes reflect genuine creative reasoning rather than mere reproduction of existing content these models have been trained on.**
