@@ -28,7 +28,7 @@ This:-
 
 ## How it works/Workflow
 
-1. A number of jokes are generated using the PlanSearch tree based prompting technique.
+1. A number of jokes are generated using the PlanSearch tree based prompting technique, after a single word prompt by the user.
 2. Each joke is judged and by the panel of 3 judges, with 3 distict personalities with each of them passing their individual verdicts, as dicussed above.
 3. The panel debates/discusses with each others verdict in a simulated setting to pass the final score, that they agree on for each of the generated jokes.
 4. The "joke" and its corresponding "score" are stored in a individual dictionaries and storing all of them together in a list.
