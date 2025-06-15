@@ -22,7 +22,7 @@ This project simulates a comedy panel of AI judges who evaluate jokes using larg
 
 Instead of going for a single LLM-based judgement scheme, as mentioned in the problem statement, we decided to make it bit even better. Taking inspiration from music-reality shows on TV, we built a panel of judges who debate amongst each other before arriving on an end result.
 This:-
-* *Reduces/cancels out bias from individual judges (a major problem in a single judge based approach, where no one other judge can actually check on them).*
+* *Reduces/cancels out bias from individual judges (a major problem in a single judge based approach, where no other judge can actually check on them).*
 
 ---
 
